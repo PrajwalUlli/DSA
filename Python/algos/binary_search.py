@@ -12,3 +12,19 @@ def binary_search(arr: list, target: int or str or float) -> int:
         else:
             high = mid - 1
     return -1
+
+"""
+1. Label the low and high points in the list
+2. Iterate over the list given that both the  
+   points dont collide:
+      a. with every iteration get the mid 
+         point in the list
+      b. if the mid == target return the 
+         index
+      c. elif mid > target eliminate the 
+         right half of the list ie update the 
+         labels
+      d. else eliminate the left half of the  
+         list ie update the labels
+3. Return -1 if target not found.
+"""
