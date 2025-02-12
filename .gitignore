@@ -1,0 +1,8 @@
+# Ignore the entire DSA directory
+DSA/
+
+# Ignore specific directories inside Python
+Python/.comments/
+Python/.qodo/
+Python/BootdotDev/
+
