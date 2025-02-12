@@ -1,8 +1,17 @@
-from algos import binary_search
+from algos import binary_search, selection_sort
 
 
-arr = [i for i in range(1, 10000000)]
+# Binary Search
+arr = [i for i in range(1, 100000)]
+target = 23337
 # arr = ["Alice", "Bob", "Charlie", "David", "Eve", "Frank", "Grace", "Hannah", "Ivy", "Jack"]
-target = 2123245
+# target = "Frank"
 res = binary_search(arr, target)
-print(f"At index {res}")
+print(f"At index: {res}")
+
+
+# Selection Sort
+arr = ["Ivy", "Eve", "Bob", "Alice", "Grace", "Charlie", "David", "Frank", "Hannah", "Jack"]
+# arr = [2,5,1,7,3,4,8,6,2,9,8,2,5,3,1]
+res = selection_sort(arr)
+print(f"Sorted: {res}")
