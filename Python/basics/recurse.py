@@ -41,7 +41,7 @@ def sum_n(num):
     # recursive case
     return num + sum_n(num-1)
 
-# 5. Power Function 
+# 6. Power Function 
 def powr(num, expo):
     # base case
     if expo == 1:

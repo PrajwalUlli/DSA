@@ -10,3 +10,9 @@ Python/BootdotDev/
 __pycache__/
 *.pyc
 
+# Ignore C bin files
+C/bin/
+C/.comments/
+C/.qodo/
+C/.vscode/
+
